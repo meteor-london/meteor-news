@@ -1,0 +1,96 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Meteor London
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        header.logo
+          div.meteor.london Meteor London
+
+      section.emphatic-text(data-bespoke-backdrop='meteorday')
+        h1 News
+
+      section
+        h2.bright Where?
+        h3 @meteorjs
+        h3
+          a https://www.meteor.com/blog
+        h3
+          a http://thisweekinmeteor.com/
+        h3
+          a https://crater.io/
+        h3
+          a https://forums.meteor.com
+
+      section
+        h2.bright MDG
+        h3 Meteor 1.0.5 released
+
+      section
+        h2 Now ships with MongoDB 2.6
+        h3 ...and it should work with 3.0
+        h3 Previous versions shipped with 2.4
+        h3 Plus, we now have an API to access the raw DB and collections
+
+      section
+        h2 Blaze enhancements
+        h3 Template level subscriptions!
+        h3 onCreated / onRendered / onDestroyed callback registration
+        h3 (so no more monkey patching!)
+        h3 (...but how do we unregister them?)
+
+      section
+        h2 Other Stuff
+        h3 Facebook auth v2.2 rather than v1.0
+        h3 Subscription handles have ids / onStop callbacks
+        h3 Client login hooks
+        h3 Session.set({foo: 'bar', alpha: 'bravo'})
+        h3 Better error messages
+        h3 etc...
+
+      section
+        h2 Coming Soon!
+        h4 (mostly in Meteor 1.1)
+        h3 Official Windows support
+        h3 Faster/better package version solver
+        h3 Spacebars helpers: {{#each in}}, {{#let}}, {{@index}}
+        h3 Core Babel (ES6 transpiler) support
+
+      section
+        h2.bright MeteorHacks
+        h4 (Arunoda and friends)
+        h3 Flow Router - minimalistic router
+        h3 Flow Components - React-like for Meteor
+        h3 Clusters - scaling solution within Meteor
+        h3 Firewall - coming soon??? Yes, today! (Sikka)
+
+      section
+        h2.bright Mongol and JetSet
+        h4 (Max Savin)
+        h3 In-browser GUI to interact with MongoDB and Session variables
+
+      section
+        h2.bright Meteor + Famo.us
+        h3 Famo.us is a UI engine which aims to deliver 60FPS in the browser
+        h3 Meteor + Famo.us = Meteor-Famous-Views
+        h3 Author Gadi Cohen will present at the July Meetup!
+
+      section
+        h2.bright Meteor London
+        h3 We now have >>1,000 members!
+        h3 So this room feels very small...
+        h3 We're working on new ideas for a venue
+        h3 But if YOU have any ideas, let us know!
+
+      section
+        h1 That's all, folks!
+
+script(src='build/build.js')
