@@ -27,10 +27,10 @@ html
           a(href="https://www.meteor.com/blog") https://www.meteor.com/blog
           
         h3
-          a(href="http://thisweekinmeteor.com/") http://thisweekinmeteor.com/
+          a(href="http://thisweekinmeteor.com/") http://thisweekinmeteor.com
           
         h3
-          a(href="https://crater.io/") https://crater.io/
+          a(href="https://transmission.simplecast.fm") https://transmission.simplecast.fm
           
         h3
           a(href="https://voice.kadira.io") https://voice.kadira.io
@@ -47,38 +47,44 @@ html
 
       section
         h1 MDG
-
-      section
-        h2 Meteor Guide
-        h3 Opinionated instructions on building an app in Meteor 1.2.1
-        h3 Covers the entire process
-        h3 Written by Sashko Stubailo, with much input from Meteor devs
         
       section
-        h2 v1.3 (end of February?)
+        h2 v1.3 
+          strike (end of February?)
         h3 Supports ES2015/CommonJS modules
         h3 Import NPM modules directly (including on the client)
-        h3 Load order resolution via imports
         h3 ES2015 Generators, and ES2016 async/await support
         h3 No incremental loading (yet)
+        h3 Some quirks...
 
       section
-        h2 Reactive GraphQL
-        h3 Will leverage Facebook's GraphQL/Relay for the data layer
-        h3 Support MongoDB, SQL, REST APIs out of the box
-        h3 But how much boilerplate will that require?
-        h3 Watch the React Conf. on the 22nd/23rd Feb!
+        h2 APOLLO (Reactive GraphQL)
+        h3 Much discussion...
+        .images
+          img.small(src="/images/block-diagram.png")
+          img.small(src="/images/reactive-with-mutations-diagram.png")
+
+      section
+        h2 Breaking apart the uber-repo
+        h3 Individual repos for the separate Meteor components
+        h3 Easier to raise relevant issues and submit PRs
+        h3 Sub-team handles listed in contributing.md
 
       section
         h1 Kadira
         
       section
+        h2 Flow-router SSR available (in beta)
+        h3 Familiar API, but providing SSR capabilities
+        h3 Only supports React
+        
+      section
         h2 Mantra
         h3 A well-specified application architecture for Meteor
-        h3 High maintainability via linters/testing
-        h3 Futureproof
         h3 There is already the start of a tutorial at
           a(href="https://tutor.mantrajs.com") tutor.mantrajs.com
+        h3 Command-line interface
+        h3 Atom package
       
       section
         h4 Discuss.
@@ -86,23 +92,6 @@ html
       section
         h1 Community
       
-      section
-        h2 JSConf Budapest 2016
-        h3 Non-profit, community-driven conference
-        h3 May 12th-13th, Budapest, Hungary
-        h3 Breakfast, lunch, one dinner and two evening events
-        h3 GREAT value and a chance to sponsor diversity
-        h3
-          strong Use coupon code NOL16JSCBP for a discount!!!
-        
-      section
-        h2 Meteor in flip-flops
-        h3 Two-day workshop, lectures, assignments and projects
-        h3 Feb 21st-28th, Las Palmas, Gran Canaria
-        h3
-          a(href="https://meteorinflipflops.com") https://meteorinflipflops.com
-        h3 Or speak to Maciek Nowakowski
-        
       section
         h2 What's your news?
         
